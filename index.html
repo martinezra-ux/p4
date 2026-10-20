@@ -1,0 +1,196 @@
+<!DOCTYPE
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;   
+        }
+        :root {
+            --bg-color: #65d5df;        
+            --primary-color: #FF2E14;
+            --secondary-color: #007ABF;
+            --tertiary-color: #ffffff;
+            --quaternary: #1c5270;
+            --sextiary: #2e7d32;
+        }
+        body {
+            background: linear-gradient(180deg, var(--bg-color) 0%, var(--bg-color) 65%, var(--sextiary) 100%);
+            background-attachment: fixed;
+            min-height: 100vh;
+            margin: 0;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 800;
+            display: flex;
+            flex-direction: column;            
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 1.5rem 0.625rem;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.2rem; 
+        }
+        header {
+            padding: 0.2em 0.5em;
+        }
+        header hgroup {
+            color: var(--tertiary-color);
+            text-align: center;
+            font-size: 1.2;
+            font-weight: 800;
+        }
+        header h1 {
+            font-size: 2.3rem;
+            line-height: 0.95;
+            margin-bottom: 0.2em;
+        }
+        header h3 {
+            font-size: 0.95rem;
+            margin-bottom: 0.25em;
+            margin-right: 0.8em;
+        }
+        header h2 {
+            font-size: 1.5rem;
+            margin-top: 0.2em;
+            margin-bottom: 0.2em;
+        }
+        .texto-rojo {
+            color: var(--primary-color);
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.8rem;
+            padding: 0.2em 0.5em;
+            width: 100%;
+        }
+        .titulo-escenario {
+            margin-bottom: 0.2em;
+            justify-content: center;
+            align-items: baseline;
+            gap: 0.35em;
+        }
+        .titulo-escenario .texto-pequeno {
+            color: var(--quaternary);
+            font-size: 0.7em;
+            font-weight: 800;
+        }
+        .titulo-escenario .texto-grande {
+            font-size: 1.15rem;
+            font-weight: 800;
+        }
+        .texto-quaternary {
+            color: var(--quaternary);
+        }
+        section {
+            margin-bottom: 0.1rem;
+        }
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 0.3em 0.6em;
+            padding: 0;
+            line-height: 1.2;
+            color: var(--secondary-color);
+        }
+        li {
+            display: inline;
+            font-weight: 800;
+            font-size: 1.15em;
+        }
+        footer {
+            padding: 0.7em;
+        }
+        .consigue-entrada {
+            color: var(--quaternary);
+            font-size: 1em;
+            margin-bottom: 0.1em;
+            font-weight: 800;
+        }
+        .enlace-web {
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            display: inline-block;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <hgroup>
+                <h1>I LOVE REGGAETON <span class="texto-rojo">ALICANTE</span></h1>
+                <h3><span>AREA 12</span> <time datetime="2026-08-21">VIERNES 21 AGOSTO</time></h3>
+                <h2 class="texto-rojo">EL PRIMER REGGAETON NUNCA SE OLVIDA</h2>
+            </hgroup>
+        </header>
+
+        <main>
+            <section> 
+                <h3 class="titulo-escenario">
+                    <span class="texto-pequeno">ESCENARIO</span> 
+                    <span class="texto-rojo">I LOVE REGGAETON</span>
+                </h3>
+                <ul class="artistas-bloque1">
+                    <li>NACHO</li>
+                    <li>JUAN MAGÁN</li>
+                    <li>CALI & EL DANDEE</li>
+                    <li>WOLFINE</li>
+                    <li>HENRY MENDEZ</li>
+                    <li>FUEGO</li>
+                    <li>JOSÉ DE RICO</li>
+                    <li>LORNA</li>
+                    <li>DCS</li> 
+                    <li>MIGUEL SAEZ</li>
+                    <li>DR. BELLIDO</li>
+                    <li>CHARLY RODRIGUEZ</li>
+                    <li>DAME + GASOLINA DJS</li>          
+                </ul>
+            </section>
+            <section>
+                <h3 class="titulo-escenario">
+                    <span class="texto-pequeno">ESCENARIO</span> 
+                    <span class="texto-grande texto-quaternary">NOSTALGIA MILENIAL</span>
+                </h3>
+                <ul class="artistas-bloque2">
+                    <li>CASCADA</li>
+                    <li>O-ZONE</li>
+                    <li>MOHOMBI</li>
+                    <li>SERGIO CONTRERAS</li>
+                    <li>EL SÍMBOLO</li>
+                    <li>RAÚL</li>  
+                    <li>KING ÁFRICA</li>
+                    <li>SELENA LEO</li>
+                    <li>XRIZ</li>
+                    <li>MELÓN DIESEL</li>
+                    <li>DANI MATA</li>
+                    <li>GUARANÁ</li>
+                    <li>JUMPER BROTHERS</li>
+                    <li>DJ TETO</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <h3 class="consigue-entrada">CONSIGUE TU ENTRADA EN:</h3>
+            <h3><a href="http://area12alicante.es/wp-content/uploads/2025/05/Cartel-Reggaeton-Milennial-2026.png" class="enlace-web">LOVERREGGAETONALICANTE.ES</a></h3>
+        </footer>
+    </div>
+</body>
+</html>
